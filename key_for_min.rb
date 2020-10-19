@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
     minimum_value = 100
     value < minimum_value
     puts key
-    end
   end
 end
