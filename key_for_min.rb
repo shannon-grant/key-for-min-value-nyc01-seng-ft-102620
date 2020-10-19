@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
     minimum_value = 100
-    if value < minimum_value
-      key
+    value < minimum_value
+    puts key
     end
   end
 end
